@@ -1,0 +1,128 @@
+* {
+  font-family: sans-serif;
+  color: rgb(32, 32, 32);
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(32, 32, 32);
+}
+
+.nav {
+  position: absolute;
+  background-color: rgb(66, 124, 211);
+  width: 100%;
+  height: 70px;
+}
+
+.home {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: rgb(66, 124, 211);
+  border: none;
+}
+
+.object {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  width: 1200px;
+  height: 400px;
+  background-color: lightgray;
+  padding: 50px;
+}
+
+.id-number {
+  position: absolute;
+  top: -20px;
+  left: 1180px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 800;
+  position: absolute;
+  top: 0px;
+}
+
+.job {
+  position: absolute;
+  top: 160px;
+}
+
+.employer {
+  position: absolute;
+  top: 210px;
+}
+
+.city {
+  position: absolute;
+  top: 110px;
+}
+
+.employer-text,
+.job-title-text,
+.from-text {
+  font-weight: 800;
+}
+
+.favorite-movies {
+  font-weight: 800;
+  position: absolute;
+  top: 270px;
+}
+.movies-1,
+.movies-2,
+.movies-3 {
+  position: absolute;
+  left: 100px;
+}
+.movies-1 {
+  top: 300px;
+}
+.movies-2 {
+  top: 330px;
+}
+.movies-3 {
+  top: 360px;
+}
+
+.previous,
+.next {
+  position: absolute;
+  top: 520px;
+  left: 0px;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: rgb(32, 32, 32);
+  border: none;
+}
+.next {
+  left: 1210px;
+}
+.previous:hover,
+.next:hover {
+  color: rgb(211, 211, 211);
+}
+
+.new {
+  position: absolute;
+  top: 520px;
+  left: 800px;
+  background-color: rgb(66, 124, 211);
+  border-radius: 13px;
+  border: none;
+  width: 60px;
+  height: 30px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
